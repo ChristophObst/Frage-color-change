@@ -32,7 +32,7 @@ const box = document.querySelector('[data-js="box"]');
 const changeColor = color.value;
 
 color.addEventListener("input", () => {
-  box.style.background = "hsl(" + changeColor + " 80%, 50%)";
+  box.style.background = "hsl(" + changeColor + ", 80%, 50%)";
 });
 
 radius.addEventListener("input", () => {
